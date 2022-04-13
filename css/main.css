@@ -22,7 +22,7 @@ body {
 }
 
 header {
-    height: 15vh;
+    /* height: 15vh; */
     display: flex;
     justify-content: space-between;
 }
@@ -41,7 +41,8 @@ h3 {
 
 /* Images dans un header */
 .HdImg {
-    height: 100%;
+    /* height: 100%; */
+    height: 10rem;
 }
 
 .GreyShadow {
@@ -86,4 +87,34 @@ header,
 #intro {
     width: 90%;
     margin: auto;
+}
+
+/* MENU */
+#menu {
+    margin: 2rem 0;
+    background: #555;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+}
+
+#menu ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#menu a {
+    font-family: "Rock Salt", sans-serif;
+    color: #eee;
+    text-decoration: none;
+    padding: .5rem;
+    transition: all 750ms ease-in-out;
+}
+
+#menu a:hover {
+    background: #eee;
+    color: #555;
 }
